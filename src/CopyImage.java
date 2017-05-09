@@ -8,6 +8,7 @@ public class CopyImage {
     File aim_;
 
     CopyImage() {
+        super();
         source_ = new File("./1.jpg");
         aim_ = new File("./2.jpg");
     }
